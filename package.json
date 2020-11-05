@@ -1,0 +1,27 @@
+{
+  "name": "dragansalg.github.io",
+  "version": "1.0.0",
+  "description": "My recruitmentpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dragansalg/dragansalg.github.io.git"
+  },
+  "author": "Dragan Salg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dragansalg/dragansalg.github.io/issues"
+  },
+  "homepage": "https://github.com/dragansalg/dragansalg.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-alpha2"
+  }
+}
