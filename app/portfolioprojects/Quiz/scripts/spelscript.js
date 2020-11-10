@@ -58,7 +58,7 @@ getNewQuestion = () => {
     //upong completing the final question we store the score for the playthrough and relocates the user to endscreen.
     if(questions.length === 0 || questionCounter >= max_questions){
         localStorage.setItem("latestScore", score);
-        return window.location.assign("/slut.html");
+        return window.location.assign("/app/portfolioprojects/Quiz/slut.html");
     }
     //Counts and displays the question that user is currently on.
     questionCounter++;
