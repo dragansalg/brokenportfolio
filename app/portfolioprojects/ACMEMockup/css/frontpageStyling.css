@@ -1,0 +1,72 @@
+.menulist { grid-area: menu; }
+.header { grid-area: header; }
+.itemHighlight { grid-area: main; }
+.itemText { grid-area: mainText; }
+.footer { grid-area: footer; }
+
+.logo {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 35px;
+    left: 1020px;
+    max-width: 10%;
+}
+
+.topNavigation {
+    display: grid;
+    grid-gap: 6px;
+    background-color: #2196f3;
+    padding: 6px;
+}
+
+.menulist {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.logo {
+    text-align: right;
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+
+.topNavigation > div {
+    background-color: darkgray;
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+.eventHighlights {
+    display: grid;
+    grid-template-areas:
+    'main main main main main main'
+    'mainText mainText mainText mainText mainText mainText';
+    grid-gap: 0px;
+    background-color: #2196f3;
+    padding: 6px;
+}
+
+.eventHighlights > div {
+    background-color: darkgray;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+.bottomNavigation {
+    display: grid;
+    grid-template-areas:
+    'footer footer footer footer footer footer';
+    grid-gap: 0px;
+    background-color: #2196f3;
+    padding: 6px;
+}
+
+.bottomNavigation > div {
+    background-color: darkgray;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+}

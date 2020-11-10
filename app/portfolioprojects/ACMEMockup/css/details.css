@@ -1,0 +1,35 @@
+.container {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: 1fr auto;
+    gap: 1rem;
+    
+    box-sizing: border-box;
+
+    background-color:#FAFAFA;
+    padding: 0.5rem;
+}
+.mainCard{
+    grid-column: 1 / 4;
+    min-width: 0;
+    min-height:0;
+}
+div {
+    /* border:solid 2px; */
+    
+}
+
+.speakers{
+    min-width: 0;
+    min-height:0;
+}
+
+.description{
+    min-width: 0;
+    min-height:0;
+}
+
+.pictures{
+    min-width: 0;
+    min-height:0;
+}

@@ -1,0 +1,41 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  color: #313131;
+  font-family: "Nanum Myeongjo", serif;
+}
+
+.ingress {
+  font-weight: 800;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+
+  gap: 1rem;
+  width: 100%;
+  background-color: #fafafa;
+  padding: 0.2rem 2rem 0.2rem 2rem;
+}
+
+.bigPicture {
+  grid-column: 1 / 4;
+  justify-self: center;
+}
+
+.bigPicture img {
+  width: 100%;
+}
+
+.eventPictures img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+@media (max-width: 650px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}

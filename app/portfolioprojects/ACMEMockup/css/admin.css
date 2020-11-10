@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Nanum Myeongjo', serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    width: 100vw;
+    height: 120vh;
+    max-height: 200%;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  main{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
+      height: 125%;
+      background: #fafafa;
+      margin-left: 10px;
+      padding-top: 2em;
+  }
+
+  
+
+  main * {
+      width: 400px;
+  }
+  main h2{
+    width: 600px;
+    text-align: center;
+    margin-bottom: 2em;
+    font-size: 2.2em;
+  }
+
+  main input, select{
+      padding: 0.8em;
+      margin-bottom: 1em;
+  }
+
+  main label{
+      font-size: 1.5em;
+    font-weight: 700;
+  }
+
+  aside{
+      width: 240px;
+      height: 125%;
+      display: flex;
+      flex-direction: column;
+      font-size: 1em;
+      background: #f4f4f4;
+      color: #313131;
+      font-weight: 700;
+  }
+  .aside_links:first-child{
+      margin-top: 3em;
+  }
+
+  .aside_links{
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      
+  }
+  .aside_links i{
+      
+  }
+  .aside_links span{
+      margin-left: 5px;
+      cursor: pointer;
+  }
+
+  .aside_links:hover  {
+    background: #67E3F4;
+    color: white!important;
+  }
+  
+  .aside_links:hover a{
+    color: white!important;
+  }
+
+  footer{
+    margin-top: auto;
+}
+
+.hide{
+    display: none;
+}
+
+.success h2::after{
+    content : 'Event Successfully Added';
+    position: absolute;
+    top: 1em;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.5em;
+    background-color: #67E3F4;
+    color: #313131;
+    
+    border: dashed 1px #313131;
+}
+
+.delete-message{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top : 1em;
+    padding: 0.5em;
+    background-color: #67E3F4;
+    color: #313131;
+    
+    border: dashed 1px #313131;
+
+}

@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+.container{
+    height: 88vh;
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    width: 40vh;
+    min-height: 400px;
+    min-width: 400px;
+    background: #ffffff;
+    box-shadow: 0 6px 40px 0 rgb(0,0,0,0.1);
+    border-radius: 10px;
+    position: relative;
+}
+
+.form h1 {
+    margin-bottom: 1em;
+}
+.form input{
+    width: 80%;
+    padding: 1em;
+    margin-bottom: 1.5em;
+    border: 1px solid #ccc;
+    
+}
+
+.login-button::after{
+    content: 'Wrong username or password!';
+    position: absolute;
+    font-size: 0.7em;
+    width: 60%;
+    padding: 10px;
+    color: red;
+    bottom: 20px;
+    right: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #f4f4f4
+}
+
+footer{
+    margin-top: auto;
+}

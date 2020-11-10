@@ -1,0 +1,175 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section {
+    flex: 1 1 550px;
+    margin: 15px;
+}
+
+.logo-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+#logo-img {
+    position: relative;
+    right: 30px;
+}
+
+/* .login-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-block-end: 10px;
+} */
+
+/* input#uname[type=text],
+input#psw[type=password] {
+    width: 90%;
+    padding: 10px 0px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+} */
+
+/* span.psw {
+    float: right;
+    padding-top: 16px;
+} */
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2em;
+    border-collapse: collapse;
+}
+
+td {
+    min-width: 80px;
+    border: 1px solid black;
+}
+
+td:nth-child(even) {
+    background-color: silver;
+}
+
+.highlight td {
+    background-color: gainsboro;
+}
+
+.highlight td:first-child {
+    background-color: gray;
+    font-weight: bolder;
+}
+
+input {
+    font-size: 1.0em;
+    width: 80px;
+    background-color: rgba(0, 0, 0, 0);
+    border: rgba(0, 0, 0, 0);
+}
+
+#dice-section {
+    flex: 0 1 550px;
+    border: 1px solid rgb(10, 9, 9);
+    border-width: 2px;
+    margin: 20px 1.5%;
+    width: 550px;
+    height: 100px;
+}
+
+.dice-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+}
+
+.dice-container img {
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+}
+#dice-box {
+    display: flex;
+}
+.checkbox {
+    position: absolute;
+    bottom: 0px;
+    right: 18px;
+    display: none;
+}
+
+#explaination {
+    display: none;
+}
+#under-dice-box {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#diceRollsLeft {
+    padding-right: 55px;
+}
+#rollButtonSection {
+    padding-right: 20px;
+    margin-left: auto;
+}
+.invisible {
+    opacity: 0;
+}
+.visible {
+    opacity: 1;
+}
+
+.messageBox {
+    min-width: 550px;
+}
+#btnSend {
+    float: right;
+}
+#inputText {
+    width: 380px;
+}
+.messages {
+    background-color: rgb(131, 131, 223);
+}
+
+.boxDescription {
+    background-color: rgb(131, 131, 223);
+}
+
+.messageField {
+    background-color: rgb(88, 209, 108) !important;
+}
+
+ul {
+    margin-top: auto;
+    border-top: 1px solid rgb(1, 1, 4); 
+}
+
+li {
+    background-color: rgb(88, 209, 108);
+    width: 400px;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+}
+
+spanChat {
+    background-color: rgb(131, 131, 223);
+    float: right;
+}
+
+spanChat:hover {
+    cursor: pointer;
+}

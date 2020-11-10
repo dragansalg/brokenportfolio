@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/app/portfolioprojects/ACMEMockup/css/mainpage.css" rel="stylesheet">
+    <link href="/app/portfolioprojects/ACMEMockup/css/admin.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/15d187da22.js" crossorigin="anonymous"></script>
+    <script src="/app/portfolioprojects/ACMEMockup/scripts/admin.js" defer></script>
+    <title>ACME Events</title>
+</head>
+<body>
+  
+    <div class="topNavigation">
+        <input type="checkbox" id="toggle-checkbox" class="toggle-checkbox">
+        
+        <label for="toggle-checkbox" class="menulist">
+            <span></span>
+        </label>
+
+        <nav>
+            <ul>
+                <li><a href="/app/portfolio.html">Tillbaka till Dragan Sälg</a> </li>
+                <li><a href="/app/portfolioprojects/ACMEMockup/index.html">Home</a> </li>
+                <li><a href="/app/portfolioprojects/ACMEMockup/pages/events.html">Events</a> </li>
+                <li><a href="/app/portfolioprojects/ACMEMockup/pages/eventdetails.html">Details</a> </li>
+                <li><a href="/app/portfolioprojects/ACMEMockup/pages/about.html">About</a> </li>
+                <li><a href="/app/portfolioprojects/ACMEMockup/pages/contact.html">Contact</a> </li>
+                
+            </ul>
+        </nav>
+        
+        <div class="logo"><img src="../images/logo-v3.png"></div>
+    </div>
+
+    <div  class="container">
+        <aside>
+            <div class="aside_links"><i class="far fa-edit"></i><span id="admin_edit">Edit Events</span></div>
+            <div class="aside_links"><i class="far fa-newspaper"></i><span id="admin_create">Create New Events</span></div>
+            <div class="aside_links"><i class="far fa-trash-alt"></i><span id="admin_delete">Delete Event</span></div>
+            <div class="aside_links"><i class="fas fa-sign-out-alt"></i><span id="admin_logout">Log out</span></div>
+        </aside>
+       
+        <main id= "main" class="hide-all">
+            <h2 id="main_heading">Add a New Event Here</h2>
+            
+            <div id="form-delete" class="hide" >
+                <select>
+                </select>
+                <button id="btn_delete">Delete Event</button>
+                <p id="delete-message"></span>
+            </div>
+
+
+            <form id="form" action="">
+                <select id="id" class="hide">
+                </select>
+                <label for="name">Title:</label> 
+                <input type="text" name="title" id="name" required placeholder="Title">
+                
+                <label for="category">Category:</label> 
+                <select id="category" required>
+                    <option value="" disabled selected hidden>Choose category</option>
+                    <option value="Conference">Conference</option>
+                    <option value="Music/Show">Music/Show</option>
+                    <option value="Sports">Sports</option>
+                    <option value="Wedding">Wedding</option>
+                </select>
+
+                <label for="venue">Venue:</label> 
+                <input type="text" id="venue" placeholder="Venue" required>
+
+            <label for="date">Date:</label> 
+            <input type="date" id="date" placeholder="title">
+            <label for="time">Time:</label> 
+            <input type="time" id="time" placeholder="title">
+            <select name="image" id="image">
+                <option value="" disabled selected hidden>Choose image</option>
+                <option value="conference">Conference</option>
+                <option value="music">Music/Show</option>
+                <option value="sports">Sports</option>
+                <option value="wedding">Wedding</option>
+            </select>
+            
+            
+        
+                <button id="btn">Create New Event</button> 
+                <br />
+                <br />
+                <button id="btn_edit" class="hide">Confirm Changes</button> 
+            </form>
+        </main>
+        
+
+    </div>
+    
+    
+    
+
+    
+</body>
+</html>

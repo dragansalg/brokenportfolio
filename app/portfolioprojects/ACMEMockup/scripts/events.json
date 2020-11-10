@@ -1,0 +1,80 @@
+[
+    {
+        "id":1,
+        "category":"Sports",
+        "name":"Stockholm International Horse Show",
+        "date": "2021-02-18T09:30",
+        "venue": "Friends Arena",
+        "imageLocation":"../images/horse_show.jpg"
+
+    },
+    {
+        "id":2,
+        "category":"Conference",
+        "name":"Conference on Green Energy & Technology",
+        "date": "2021-01-06T10:00",
+        "venue": "Aula Magna, Stockholm University",
+        "imageLocation":"../images/conference_greenenergy.jpg"
+    },
+    {
+        "id":3,
+        "category":"Music/Show",
+        "name":"Bryan Adams - Shine A Light",
+        "date": "2021-04-22T20:00",
+        "venue": "Ericsson Globe",
+        "imageLocation":"../images/bryan_adams.jpg"
+    },
+    {
+        "id":4,
+        "category":"Wedding",
+        "name":"Church Wedding",
+        "date": "2021-03-31T11:00",
+        "venue": "Vikingatan",
+        "imageLocation":"../images/church_wedding.jpg"
+    },
+    {   
+        "id":5,
+        "category":"Conference",
+        "name":"Advances in Health Care",
+        "date": "2021-02-05T10:00",
+        "venue": "Aula Medica,Karolinska Institutet",
+        "imageLocation":"../images/conference_health.jpg"
+
+    }, 
+    {
+        "id":6,
+        "category":"Music/Show",
+        "name":"Seven Worlds one planet (BBC Show)",
+        "date": "2021-03-07T20:00",
+        "venue": "Ericsson Globe",
+        "imageLocation":"../images/bbc.jpg"
+      
+    },
+    {
+        "id":7,
+        "category":"Wedding",
+        "name":"Wedding - beach theme ",
+        "date": "2021-03-15T11:00",
+        "venue": "Sandhamn",
+        "imageLocation":"../images/beach_wedding.jpg"
+    },
+    {
+        "id":8,
+        "category":"Sports",
+        "name":"ISU World figure skating Championship",
+        "date": "2021-03-22T07:00",
+        "venue": "Ericsson Globe",
+        "imageLocation":"../images/skating.jpg"
+    },
+   
+    {
+        "id":9,
+        "category":"Music/Show",
+        "name":"Hans Zimmer Live",
+        "date": "2021-04-01T18:00",
+        "venue": "Ericsson Globe",
+        "imageLocation":"../images/hans_zimmer.jpg"
+    }
+    
+    
+]
