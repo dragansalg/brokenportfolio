@@ -1,0 +1,8 @@
+Scrum: Ett arbetssätt där ett team arbetar i s.k. "korta sprintar". Dessa "sprintar" sträcker sig vanligen över 1-2 veckor, detta för att kunna anpassa ett projekt och göra förändringar enligt kravspec över tid. Detta gör att ett team inte blir lika negativt påverkade ifall det sker förändringar enligt kundens krav. Till skillnad från vanligt förekommande arbetssätt där man planerar ett helt projekt över en löpande period då förändringar kan avsevärt minska kvaliten av produkten.
+
+Ett team utser en scrum master vars uppgift är att dela upp projektet i så små delar som möjligt samt uppdatera kunden om hur projektet ligger till och kunna göra ändringar enligt kravspecifikationerna efter kundens behov.
+
+Grafisk profil: En grafisk profil är till för att hålla en röd tråd i ett projekt. Detta för att designen av ett projekt inte ska skilja sig från sida till sida utan hålla ett specifierat "tema". Denna "modell" gör det enklare för ett team att designa ett projekt i tandem.
+
+tillgänglighet: Tillgänglighetskrav handlar om att anpassa hemsidor för att en bred skara av individer ska kunna känna sig bekväma vid att ta till sig information och navigera till önskad destination. Utan tillgänglighetskrav så skulle personer med olika typer av synskador eller fysiska svårigheter inte kunna använda sig av webben alls, även idag trots de tillgänglighetskrav som existerar så har vissa personer fortfarande svårigheter av att använda sig av datorer i allmänhet och webben.
+Genom att fler och fler tillämpar tillgänglighetskrav så kan även världen anpassa dessa krav till att bli standardisering samt förbättra stödet så att vi människor kollektivt kan gå in i nästa teknologiska era.
