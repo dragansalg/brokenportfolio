@@ -1,0 +1,8 @@
+@import './index';
+@import './variables';
+
+@media screen and (max-width: 740px) {
+    .container {
+        grid-template-columns: 100%;
+    }
+}
