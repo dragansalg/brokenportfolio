@@ -84,12 +84,18 @@ body {
 }
 
 .container img {
+  margin-top: 16px;
   border: 1px solid black;
   width: 200px;
 }
 
 .container ul {
   border: 1px solid black;
+}
+
+.container ul img {
+  margin-top: 10px;
+  width: 50px;
 }
 
 .bottom .footer {

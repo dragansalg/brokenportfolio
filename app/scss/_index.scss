@@ -75,10 +75,15 @@
     grid-template-columns: 50% 50%;
     padding: 10px;
     img {
+        margin-top: 16px;
         border: 1px solid black;
         width: 200px;
     }
     ul {
+        img {
+            margin-top: 10px;
+            width: 50px;
+        }
         border: 1px solid black;
     }
 }
