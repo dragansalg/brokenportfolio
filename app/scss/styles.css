@@ -83,22 +83,39 @@ body {
   padding: 10px;
 }
 
-.container img {
+.profile {
+  margin: auto;
+}
+
+.profile img {
   margin-top: 16px;
   border: 1px solid black;
   width: 200px;
 }
 
-.container ul {
-  border: 1px solid black;
+.achievements {
+  margin: auto;
+  padding: 10px;
+  list-style-type: none;
+  border: 2px solid black;
 }
 
-.container ul img {
+.achievements .listText {
+  padding: 5px;
+  float: left;
+}
+
+.achievements img {
   margin-top: 10px;
   width: 50px;
 }
 
 .bottom .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
   text-align: center;
   padding: 3px;
   background-color: #333;

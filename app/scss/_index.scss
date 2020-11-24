@@ -73,32 +73,49 @@
 .container {
     display: grid;
     grid-template-columns: 50% 50%;
-    padding: 10px;
-    img {
-        margin-top: 16px;
-        border: 1px solid black;
-        width: 200px;
-    }
-    ul {
-        img {
-            margin-top: 10px;
-            width: 50px;
-        }
-        border: 1px solid black;
-    }
+    padding: 10px;   
+}
+
+.profile {
+  margin: auto;
+  img {
+    margin-top: 16px;
+    border: 1px solid black;
+    width: 200px;
+}
+}
+
+.achievements {
+  margin: auto;
+  padding: 10px;
+  list-style-type: none;
+  .listText {
+    padding: 5px;
+    float: left;
+  }
+  img {
+    margin-top: 10px;
+    width: 50px;
+  }
+  border: 2px solid black;
 }
 
 .bottom {
     .footer{
-        text-align: center;
-        padding: 3px;
-        background-color: #333;
-        color: rgb(151, 62, 62);
-            p {
-                color: white;
-        }
-            a {
-                color: white;
-        }
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      color: white;
+      text-align: center;
+      padding: 3px;
+      background-color: #333;
+      color: rgb(151, 62, 62);
+          p {
+              color: white;
+      }
+          a {
+              color: white;
+      }
     }
 }
