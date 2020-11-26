@@ -76,13 +76,19 @@
     padding: 10px;   
 }
 
+.portfolioContainer {
+  display: grid;
+  grid-template-columns: 100%;
+  padding: 10px;   
+}
+
 .profile {
   margin: auto;
   img {
     margin-top: 16px;
     border: 1px solid black;
     width: 200px;
-}
+  }
 }
 
 .achievements {
@@ -90,6 +96,21 @@
   padding: 10px;
   list-style-type: none;
   .listText {
+    padding: 5px;
+    float: left;
+  }
+  img {
+    margin-top: 10px;
+    width: 50px;
+  }
+  border: 2px solid black;
+}
+
+.portfolioAchievements {
+  margin: auto;
+  padding: 10px;
+  list-style-type: none;
+  .portfolioListText {
     padding: 5px;
     float: left;
   }
