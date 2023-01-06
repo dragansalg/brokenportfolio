@@ -5,7 +5,7 @@
         "name":"Stockholm International Horse Show",
         "date": "2021-02-18T09:30",
         "venue": "Friends Arena",
-        "imageLocation":"../images/horse_show.jpg"
+        "imageLocation":"/dragansalg.github.io/app/portfolioprojects/ACMEMockup/images/horse_show.jpg"
 
     },
     {
@@ -14,7 +14,7 @@
         "name":"Conference on Green Energy & Technology",
         "date": "2021-01-06T10:00",
         "venue": "Aula Magna, Stockholm University",
-        "imageLocation":"../images/conference_greenenergy.jpg"
+        "imageLocation":"/dragansalg.github.io/app/portfolioprojects/ACMEMockup/images/conference_greenenergy.jpg"
     },
     {
         "id":3,
@@ -22,7 +22,7 @@
         "name":"Bryan Adams - Shine A Light",
         "date": "2021-04-22T20:00",
         "venue": "Ericsson Globe",
-        "imageLocation":"../images/bryan_adams.jpg"
+        "imageLocation":"/dragansalg.github.io/app/portfolioprojects/ACMEMockup/images/bryan_adams.jpg"
     },
     {
         "id":4,
@@ -30,7 +30,7 @@
         "name":"Church Wedding",
         "date": "2021-03-31T11:00",
         "venue": "Vikingatan",
-        "imageLocation":"../images/church_wedding.jpg"
+        "imageLocation":"/dragansalg.github.io/app/portfolioprojects/ACMEMockup/images/church_wedding.jpg"
     },
     {   
         "id":5,
@@ -38,7 +38,7 @@
         "name":"Advances in Health Care",
         "date": "2021-02-05T10:00",
         "venue": "Aula Medica,Karolinska Institutet",
-        "imageLocation":"../images/conference_health.jpg"
+        "imageLocation":"/dragansalg.github.io/app/portfolioprojects/ACMEMockup/images/conference_health.jpg"
 
     }, 
     {
@@ -47,7 +47,7 @@
         "name":"Seven Worlds one planet (BBC Show)",
         "date": "2021-03-07T20:00",
         "venue": "Ericsson Globe",
-        "imageLocation":"../images/bbc.jpg"
+        "imageLocation":"/dragansalg.github.io/app/portfolioprojects/ACMEMockup/images/bbc.jpg"
       
     },
     {
@@ -56,7 +56,7 @@
         "name":"Wedding - beach theme ",
         "date": "2021-03-15T11:00",
         "venue": "Sandhamn",
-        "imageLocation":"../images/beach_wedding.jpg"
+        "imageLocation":"/dragansalg.github.io/app/portfolioprojects/ACMEMockup/images/beach_wedding.jpg"
     },
     {
         "id":8,
@@ -64,7 +64,7 @@
         "name":"ISU World figure skating Championship",
         "date": "2021-03-22T07:00",
         "venue": "Ericsson Globe",
-        "imageLocation":"../images/skating.jpg"
+        "imageLocation":"/dragansalg.github.io/app/portfolioprojects/ACMEMockup/images/skating.jpg"
     },
    
     {
@@ -73,7 +73,7 @@
         "name":"Hans Zimmer Live",
         "date": "2021-04-01T18:00",
         "venue": "Ericsson Globe",
-        "imageLocation":"../images/hans_zimmer.jpg"
+        "imageLocation":"/dragansalg.github.io/app/portfolioprojects/ACMEMockup/images/hans_zimmer.jpg"
     }
     
     
